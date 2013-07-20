@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1024" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>Taller de Git para periodistas</title>
+    
+    <meta name="description" content="Presentación para el Taller de
+    Git para periodistas" />
+    <meta name="author" content="Mariano Benedettini" />
+
+    <link href='http://fonts.googleapis.com/css?family=Inconsolata:400,700' rel='stylesheet' type='text/css'>
+    
+    <link rel="shortcut icon" href="favicon.png" />
+    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+
+    <link href="taller.css" rel="stylesheet" type="text/css">
+  </head>
+
+  <body>
+    <div id="impress">
+      <div id="start" class="step slide" data-x="0" data-y="0">
+        <p>
+          <h1>Taller de Git</h1>
+        </p>
+        <p>
+          <h2>Para periodistas</h2>
+        </p>
+        <p>
+          De cara al primer hackatón de Hacks/Hackers Rosario
+        </p>
+        <div class="bottom right"><h3>Rosario, Julio de 2013</h3></div>
+      </div>
+
+      <div id="summary" class="step slide" data-x="1500" data-y="0">
+        <p>
+          <h1>Programa</h1>
+        </p>
+        <h3>Charla introductoria</h3>
+        <ol>
+          <li>¿Qué es Git?</li>
+          <ol>
+            <li>Para qué lo usamos los programadores</li>
+            <li>Ventajas de tener un archivo bajo git</li>
+            <li>Algunos conceptos importantes</li>
+          </ol>
+          <li>¿Y qué es GitHub?</li>
+          <ol>
+            <li>GitHub como comunidad</li>
+            <li>Repositorios públicos y privados</li>
+            <li>Más conceptos importantes</li>
+          </ol>
+        </ol>  
+        <h3>Práctica!</h3>
+        <ol>
+          <li>Registrarse en GitHub</li>
+          <li>Bajar e instalar la aplicación de GitHub para
+        Windows</li>
+          <li>Clonar un repositorio</li>
+          <li>Commitear cambios y pushearlos. Hacer pull.</li>
+          <li>Forkear</li>
+        </ol>
+      </div>
+
+      <div class="step slide" data-x="3000" data-y="0">        
+        <div>
+          <h3>¿Qué es Git?</h3>          
+            <div class="text-normal space-ahead">+ Una herramienta para versionar código fuente</div>
+            <div class="space-ahead">
+              <div class="text-normal float-left">+ Versionar: registrar cambios</div>
+              <img src="imgs/versioning.jpg" class="img-small float-right"/>
+              <div class="float-stop space-ahead"></div>
+            </div>
+            <div>
+              <div class="text-normal float-left">+ Código fuente: texto con las instrucciones <br/>de un programa</div>
+              <img src="imgs/source-code.png" class="img-medium float-right"/>
+            </div>
+        </div>
+      </div>
+
+      <div class="step slide" data-x="3000" data-y="1000">
+        <h3 class="lots-space-ahead">¿Para qué lo usan los programadores?</h3>
+        <div class="text-normal lots-space-ahead">+ Les interesa registrar los cambios que se hacen sobre el código fuente</div>
+        <div class="text-normal lots-space-ahead">+ Pueden querer volver a una versión anterior de un archivo</div>
+        <div class="text-normal lots-space-ahead">+ Se puede comparar un archivo actual con sus versiones anteriores</div>
+        <div class="text-normal lots-space-ahead width-reduced float-left">+ Git también es un contenedor -repositorio- de código fuente</div>
+        <div class="float-right">
+          <img class="img-small" src="imgs/meme0.jpg"/>
+        </div>
+      </div>
+
+      <div class="step slide" data-x="3000" data-y="2000">
+        <h2 class="lots-space-ahead">Ventajas de tener un archivo bajo Git</h3>
+        <div class="text-big lots-space-ahead">+ Revisión de cambios</div>
+        <div class="text-big lots-space-ahead">+ Copia de seguridad (backup)</div>
+        <div class="text-big lots-space-ahead">+ Compartir y colaborar</div>
+      </div>
+
+      <div class="step slide" data-x="4500" data-y="2000">
+        <h2 class="lots-space-ahead">Algunos conceptos importantes</h2>
+
+        <div class="text-big">+ Repositorio</div>
+        <div class="text-normal lots-space-ahead">Concepto de "proyecto". Contenedor de archivos relacionados entre sí</div>
+
+        <div class="text-big">+ Clonar (un repositorio)</div>
+        <div class="text-normal lots-space-ahead width-super-reduced float-left">Copiar un repositorio a nuestra computadora.</div>
+        <div class="float-right">
+          <img class="img-medium" src="imgs/clonar.png"/>
+        </div>
+        <div class="float-stop">&nbsp;</div>
+        
+        <div class="text-big">+ Commit</div>
+        <div class="text-normal width-super-reduced float-left">Instantánea -fotocopia- de uno o más archivos que se guarda en el repositorio.</div>        
+        <div class="float-right">
+          <img class="img-small" src="imgs/commits.png" />
+        </div>
+        <div class="float-left space-behind">
+          <img class="img-small" src="imgs/commitear.png" />
+        </div>
+      </div>
+
+      <div class="step slide" data-x="4500" data-y="3000">        
+        <div>
+          <h3>¿Y qué es GitHub?</h3>          
+          <div class="text-big lots-space-ahead">+ Un proveedor de servicio de Git</div>
+          <div class="text-big lots-space-ahead">+ GitHub almacena repositorios de manera segura y económica</div>
+          <div class="text-big lots-space-ahead">+ Un servicio de Git es indispensable para coordinar el trabajo de muchas personas</div>
+          <div>
+            <img class="img-big right" src="imgs/remote-repos.png" />
+          </div>
+              
+        </div>
+      </div>
+
+      <div class="step slide" data-x="3000" data-y="3000">        
+        <div>
+          <div class="float-left"><h3>GitHub como comunidad</h3></div>
+          <div class="float-right"><img class="img-small" src="imgs/GitHub.png" /></div>
+          <div class="float-stop-left">&nbsp</div>
+          <div class="text-big space-ahead">GitHub es popular porque ofrece valor agregado:</div>
+          <div class="text-normal space-ahead some-margin-left">+ Wiki</div>
+          <div class="text-normal space-ahead some-margin-left">+ Tickets</div>
+          <div class="text-normal space-ahead some-margin-left">+ Social coding:</div>
+          <div class="text-normal space-ahead lots-margin-left">+ Follow a otros usuarios y proyectos</div>
+          <div class="text-normal space-ahead lots-margin-left">+ Favear proyectos</div>
+          <div class="text-normal space-ahead lots-margin-left">+ Facilita que terceros contribuyan a un proyecto</div>
+              
+        </div>
+      </div>
+
+    </div>
+    <script src="impress.js/js/impress.js"></script>
+    <script>impress().init();</script>
+  </body>
+</html>

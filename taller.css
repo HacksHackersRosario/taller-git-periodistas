@@ -1,0 +1,114 @@
+body {
+    font-family: 'Inconsolata', sans-serif;
+    min-height: 740px;
+    /* background: rgb(255, 232, 232); */
+    /* color: rgb(255, 82, 82); */   
+}
+
+.slide {
+    display: block;
+
+    width: 900px;
+    height: 700px;
+    padding: 40px 60px;
+
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, .1); 
+
+    text-shadow: 0 2px 2px rgba(0, 0, 0, .1);
+
+    position: relative;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 72px;
+    font-style: bold;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 48px;
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.bottom {
+    position: absolute;
+    bottom: 25px;
+}
+
+.right {
+    position: absolute;
+    right: 25px;
+}
+
+.text-normal {
+    font-size: 24px;
+}
+
+.text-big {
+    font-size: 32px;
+}
+
+.width-reduced {
+    max-width: 70%;
+}
+
+.width-super-reduced {
+    max-width: 60%;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.float-stop {
+    clear: both;
+}
+
+.float-stop-left {
+    clear: left;
+}
+
+.img-medium {
+    width: 300px;
+    max-height: 500px;
+}
+
+.img-small {
+    width: 200px;
+    max-height: 300px;
+}
+
+.img-big {
+    width: 400px;
+    max-height: 500px;
+}
+
+.space-ahead {
+    margin-bottom: 40px;
+}
+
+.space-behind {
+    margin-top: 40px;
+}
+
+.lots-space-ahead {
+    margin-bottom: 60px;
+}
+
+.some-margin-left {
+    margin-left: 40px;
+}
+
+.lots-margin-left {
+    margin-left: 80px;
+}
