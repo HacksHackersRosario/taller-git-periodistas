@@ -112,3 +112,9 @@ h3 {
 .lots-margin-left {
     margin-left: 80px;
 }
+
+.fork-ribbon {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
